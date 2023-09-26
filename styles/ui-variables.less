@@ -1,27 +1,27 @@
 @import "base/ui-variables";
 
-@gray-base:         #1f1f1f;
-@orange:            #f18260;
-@white:             #f8f7f9;     
-@background-base:   #282828;
-@text-base:         rgba(255, 255, 255, 0.8);
+@gray-base:         #16161C;
+@orange:            #FAB28E;
+@white:             #FDF0ED;     
+@background-base:   #1C1E26;
+@text-base:         #FDF0ED;
 @base-border:       transparent;
-@preferences-extra:  green;
+@preferences-extra:  #27D796;
 
 // Message filter
 @message-filter:       invert(100%) hue-rotate(180deg);
-@message-filter-undo:  hue-rotate(-180deg) invert(85%); // white will be a bit fainter
+@message-filter-undo:  hue-rotate(-180deg) invert(97%); // white will be a bit fainter
 
 @text-base-prefilter:  spin(#fff - @text-color, 180);
-@orange-prefilter:     #c25331; // set manually, as hue-rotate is only an approximation of spin
+@orange-prefilter:     #E95678; // set manually, as hue-rotate is only an approximation of spin
 // @orange-prefilter:  spin(#fff - @orange, 180); // set automatically, but suboptimally
 
 // State colors
-@info-color:        #5293d8;
-@success-color:     #26c26a;
-@warning-color:     #ff982d;
-@error-color:       #c00;
-@danger-color:      #c00;
+@info-color:        #25B2BC;
+@success-color:     #27D796;
+@warning-color:     #FAB28E;
+@error-color:       #F43E5C;
+@danger-color:      #F43E5C;
 
 // Grays
 @gray-darker:   darken(@gray-base, 30%);
